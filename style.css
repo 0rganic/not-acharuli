@@ -205,3 +205,13 @@ p {
     background: #55ACEE;
     color: white;
 }
+
+/* Logo */
+
+.logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: 10%;
+}
