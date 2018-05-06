@@ -42,6 +42,16 @@ p {
     color: #333;
 }
 
+/* Logo */
+
+.logo {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 115px;
+    height: auto;
+}
+
 /* Header Showcase */
 
 #showcase {
@@ -63,7 +73,7 @@ p {
 }
 
 #showcase h1 {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 0;
 }
 
@@ -116,8 +126,9 @@ p {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
-    padding: 45px;
+    padding: 1.5em;
+    width: 60%;
+    max-width: 300px;
 }
 
 /* Section D / Boxes */
@@ -129,6 +140,31 @@ p {
 
 #section-d .box:first-child {
     background: #0099ff;
+}
+
+/* Social Media Icons */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    margin: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.85;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }
 
 /* Footer */
@@ -176,42 +212,22 @@ p {
         width: 33%;
     }
 
-    .store-button {
-        width: 100%
+    #section-c .store-button {
+        max-width: 300px;
     }
 }
 
-/* Social Media Icons */
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    margin: 10px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+@media screen and (max-width: 575px) {
+    #showcase h1 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
-.fa:hover {
-    opacity: 0.85;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-/* Logo */
-
-.logo {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
-    height: 10%;
+@media screen and (max-width: 375px) {
+    .button {
+        padding: 0.25em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
 }
