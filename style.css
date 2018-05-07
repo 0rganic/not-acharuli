@@ -217,17 +217,39 @@ p {
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 777px) {
     #showcase h1 {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding-top: 0.75em;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 545px) {
     .button {
-        padding: 0.25em;
-        margin-top: 0.5em;
+        margin-top: 2em;
         margin-bottom: 0.5em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button {
+        margin-top: 1.25em;
+    }
+}
+
+@media screen and (max-width: 357px) {
+    .button {
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 313px) {
+    .button {
+        margin-bottom: 1.75em;
+    }
+}
+
+@media screen and (max-width: 291px) {
+    .button {
+        margin-bottom: 1.75em;
     }
 }
